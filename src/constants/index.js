@@ -26,6 +26,9 @@ import {
     phicos,
     qwords,
     ruangguru,
+    porto_project1,
+    porto_project2,
+    porto_project3,
   } from "../assets";
   
   export const navLinks = [
@@ -84,20 +87,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -110,10 +105,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -185,67 +176,69 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Landing Page SDM GTK",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Landing Page Creation using Bootstrap 5, HTML, CSS, JavaScript, and PHP with CodeIgniter Framework.",
+      cooperation: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
       tags: [
         {
-          name: "react",
+          name: "Bootstrap 5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CodeIgniter",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: porto_project1,
+      source_code_link: "https://github.com/IAstanto7",
     },
     {
-      name: "Job IT",
+      name: "Page Login SIMONITA",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Page Login Creation using Bootstrap 4, HTML, CSS, JavaScript, and PHP with Laravel Framework.",
+      cooperation: "Peruri",
       tags: [
         {
-          name: "react",
+          name: "Bootstrap 5",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Laravel",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: porto_project2,
+      source_code_link: "https://github.com/https://github.com/IAstanto7",
     },
     {
-      name: "Trip Guide",
+      name: "Landing Page SIMPUTER",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Landing Page Creation using Bootstrap 5, HTML, CSS, JavaScript, and PHP with CodeIgniter Framework.",
       tags: [
         {
-          name: "nextjs",
+          name: "Bootstrap 5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CodeIgniter",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: porto_project3,
+      source_code_link: "https://github.com/https://github.com/IAstanto7",
     },
   ];
   
