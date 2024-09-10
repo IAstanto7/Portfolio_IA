@@ -32,6 +32,9 @@ import ruangguru from "./company/ruangguru.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import porto_project1 from "./porto_project1.png"
+import porto_project2 from "./porto_project2.png"
+import porto_project3 from "./porto_project3.png"
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   phicos,
   qwords,
   ruangguru,
+  porto_project1,
+  porto_project2,
+  porto_project3,
 };
