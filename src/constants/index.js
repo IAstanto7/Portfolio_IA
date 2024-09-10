@@ -217,7 +217,7 @@ import {
         },
       ],
       image: porto_project2,
-      source_code_link: "https://github.com/https://github.com/IAstanto7",
+      source_code_link: "https://github.com/IAstanto7",
     },
     {
       name: "Landing Page SIMPUTER",
@@ -238,7 +238,7 @@ import {
         },
       ],
       image: porto_project3,
-      source_code_link: "https://github.com/https://github.com/IAstanto7",
+      source_code_link: "https://github.com/IAstanto7",
     },
   ];
   
