@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant} from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, cooperation, description, tags, image, source_code_link }) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -39,8 +39,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="mt-5 h-[150px]">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="text-secondary font-bold text-[14px]">{cooperation}</p>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
