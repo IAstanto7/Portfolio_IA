@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    phicos,
+    qwords,
+    ruangguru,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Bootstrap (HTML) Developer",
       icon: web,
+    },
+    {
+      title: "FrontEnd Developer",
+      icon: backend,
     },
     {
       title: "React Native Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "UI/UX",
       icon: creator,
     },
   ];
@@ -116,55 +119,39 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "FrontEnd Developer",
+      company_name: "phicos",
+      icon: phicos,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Design basic ideas for website/application appearance together with UX designers.",
+        "Implementing designs into coding Bootstrap, HTML, CSS, JavaScript. that has been created by the web designer or design team.",
+        "Make sure the view is complete before sending it to the back end team."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Billing Assistant",
+      company_name: "Qwords Cloud Web Hosting Indonesia",
+      icon: qwords,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Helping customers with billing via chat, email and telephone.",
+        "Process customer payments starting from receiving payments, activation, renewal, issuing invoices, and other processes related to payments.",
+        "Create, check and archive tax invoices. Assist customers in billing via tickets, email, telephone.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Outbound Education Consultant (Telesales)",
+      company_name: "PT. Ruang Raya Indonesia (Ruangguru)",
+      icon: ruangguru,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jun 2019 - Sep 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintain good relationships with customers and potential customers.",
+        "Offering solutions to educational problems faced by consumers and combining them with Ruangguru products.",
+        "Follow up with Ruangguru application users to subscribe to paid applications.",
       ],
     },
   ];
