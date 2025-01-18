@@ -240,6 +240,27 @@ import {
       image: porto_project3,
       source_code_link: "https://github.com/IAstanto7",
     },
+    {
+      name: "Peruri Utilitas",
+      description:
+        "Landing Page Creation using Bootstrap 5, HTML, CSS, JavaScript, and PHP with CodeIgniter Framework.",
+      tags: [
+        {
+          name: "Bootstrap 5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CodeIgniter",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: porto_project3,
+      source_code_link: "https://github.com/IAstanto7",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
